@@ -99,7 +99,7 @@ const Analyzer: React.FC = () => {
       {isPopupOpen && analysis && (
         <div
           ref={popupRef}
-          className="w-[400px] absolute top-10 right-0 bg-white p-4 mt-4 rounded shadow z-10"
+          className="w-full max-w-[400px] absolute top-10 right-0 bg-white p-4 mt-4 rounded shadow z-10"
         >
           <h3 className="font-bold mb-2">Analysis:</h3>
           <p>{analysis}</p>
