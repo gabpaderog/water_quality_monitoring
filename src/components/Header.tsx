@@ -2,7 +2,7 @@ import Analyzer from "./Analyzer";
 
 export default function Header() {
   return (
-    <header className="mb-8">
+    <header className="mb-8 relative">
       <div className="flex items-center justify-between">
         <div className="">
           <h1 className="text-3xl font-semibold tracking-tight">

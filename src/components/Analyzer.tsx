@@ -85,7 +85,7 @@ const Analyzer: React.FC = () => {
   };
 
   return (
-    <div className="p-2 relative">
+    <div className="p-2">
       <button
         className="py-2 px-4 bg-blue-500 text-white font-semibold rounded text-xs sm:text-base"
         onClick={handleAnalyzeData}
@@ -99,7 +99,7 @@ const Analyzer: React.FC = () => {
       {isPopupOpen && analysis && (
         <div
           ref={popupRef}
-          className="w-full max-w-[400px] absolute top-10 right-0 bg-white p-4 mt-4 rounded shadow z-10"
+          className="max-w-[400px] absolute top-10 right-0 bg-white p-4 mt-4 rounded shadow z-10"
         >
           <h3 className="font-bold mb-2">Analysis:</h3>
           <p>{analysis}</p>
